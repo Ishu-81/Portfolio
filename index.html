@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Titans - Team Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>Tech Titans</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Tech Titans</h1>
+            <p class="hero-subtitle">We turn ideas into innovative and practical tech solutions</p>
+            <div class="hero-buttons">
+                <a href="#team" class="btn btn-primary">Meet Our Team</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-elements">
+                <div class="element element-1"><i class="fas fa-laptop-code"></i></div>
+                <div class="element element-2"><i class="fas fa-mobile-alt"></i></div>
+                <div class="element element-3"><i class="fas fa-database"></i></div>
+                <div class="element element-4"><i class="fas fa-cloud"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Identity Section -->
+    <section class="team-identity">
+        <div class="container">
+            <div class="section-header">
+                <h2>Who We Are</h2>
+                <p>Get to know the passionate minds behind Tech Titans</p>
+            </div>
+            <div class="identity-horizontal">
+                <div class="identity-item">
+                    <div class="identity-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="identity-content">
+                        <h3>TECH TITANS</h3>
+                        <p>Our team name reflects our shared passion for technology and curiosity to explore new ideas.</p>
+                    </div>
+                </div>
+                <div class="identity-item">
+                    <div class="identity-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="identity-content">
+                        <h3>Our Mission</h3>
+                        <p>We enjoy solving problems, experimenting with projects, and turning ideas into practical tech solutions while learning along the way.</p>
+                    </div>
+                </div>
+                <div class="identity-item">
+                    <div class="identity-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="identity-content">
+                        <h3>Our Strength</h3>
+                        <p>Each member brings unique skills—coding, design, creativity, or problem-solving—making our team dynamic, collaborative, and eager to grow together.</p>
+                    </div>
+                </div>
+                <div class="identity-item">
+                    <div class="identity-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="identity-content">
+                        <h3>Fun Fact</h3>
+                        <p>We love experimenting with small projects, games, and interactive ideas, learning something new with every challenge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <p>Get to know the talented individuals behind Tech Titans</p>
+            </div>
+            <div class="team-grid" id="teamGrid">
+                <!-- Team members will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Member Modal -->
+    <div id="memberModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Member details will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>Tech Titans</span>
+                </div>
+                <div class="footer-text">
+                    <p>Building innovative solutions through collaboration and passion</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tech Titans. Built with passion and teamwork.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
